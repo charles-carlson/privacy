@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <meta charset ='utf-8'>
+    <title>
+        Creating a form!
+    </title>
+    <body>
+        <h1>Lorum Ipsum</h1>
+        <form id="myForm">
+            <div>
+                <label for="Integer">Enter:</label>
+                <input type="text" id="Integer" name="item"></input>
+                <input type="button" id="button1" value="Add" onclick="addElement();"></input>
+            </div>
+        </form>
+        <canvas id="myCanvas" width="500px" height="500" style="border:#000000 solid #000000;">
+
+            hello
+
+        </canvas>
+    </body>
+        <script>
+        var arr = Array();
+        var x =0;
+        function addElement(){
+            arr[x] = document.getElementById("Integer").value;
+            x++;
+        }
+        
+        
+        </script>
+</html>
