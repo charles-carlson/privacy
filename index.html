@@ -1,32 +1,65 @@
 <!DOCTYPE html>
-<html>
-    <meta charset ='utf-8'>
-    <title>
-        Creating a form!
-    </title>
-    <body>
-        <h1>Lorum Ipsum</h1>
-        <form id="myForm">
-            <div>
-                <label for="Integer">Enter:</label>
-                <input type="text" id="Integer" name="item"></input>
-                <input type="button" id="button1" value="Add" onclick="addElement();"></input>
+    <html lang="en">
+        <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <link rel="stylesheet" href="main.css">
+
+
+
+        </head>
+        <body>
+           <img class="logo" src="yellow-logo.png">
+           <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="slide1">
+                      <h1>Notice</h1>
+                        <p>User! We are collecting your data.
+                             We will be keeping track of all <mark>keyboard swipes, phone velocity, tilts, and location data</mark> at all times.
+                              This is necessary to create an advanced algorithm tuned to your own habits to detect when you are texting and when you are driving. </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                        <div class="slide2">
+                        <h1>Choice</h1>
+                        <p>While you have a choice, you will need to <mark>allow us to use all of this information at all times</mark> to be able to create an accurate model.
+                        If our model is inaccurate, it could result in false negatives or false positives thereby affecting your score and causing extraneous fees with insurance companies.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="slide2">
+                        <h1>Access</h1>>
+                        <p>You currently cannot view the data we have collected on you as we flush it within 24 hours of being collected.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                        <div class="slide2">
+                        <h1>Security</h1>
+                        <p>We will not transmit any of your data to external sources.
+                         The only data being conveyed to another source will be your Safe+D score, calculated based on the data we collect. </p> 
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                        <div class="slide2">
+                        <h1>Redress</h1>
+                         <p>If you feel the privacy policy is not being met, we encourage you to submit a report or delete the app!</p>       
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-menu-left" ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-menu-right" ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
             </div>
-        </form>
-        <canvas id="myCanvas" width="500px" height="500" style="border:#000000 solid #000000;">
-
-            hello
-
-        </canvas>
-    </body>
-        <script>
-        var arr = Array();
-        var x =0;
-        function addElement(){
-            arr[x] = document.getElementById("Integer").value;
-            x++;
-        }
-        
-        
-        </script>
-</html>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          </body>
+        </body>
+    </html>

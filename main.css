@@ -1,0 +1,14 @@
+
+.slide1,
+.slide2,
+.slide3{
+text-align: center;
+height: 600px;
+bottom:600px;
+background:white;
+}
+.logo{
+    margin: 0 auto 0 auto;
+    display: block;
+    padding-top: 3px;
+}
