@@ -12,3 +12,8 @@ background:white;
     display: block;
     padding-top: 3px;
 }
+@media only screen and (max-width: 800px){
+    p{
+        font-size: 30px;}
+}
+    
