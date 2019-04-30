@@ -10,11 +10,21 @@ background:white;
 .logo{
     margin: 0 auto 0 auto;
     display: block;
-    padding-top: 3px;
+    padding-top: 10px;
+    width: 100%
+    height: auto;
 }
-@media (max-width: 800px){
-    p{
-        font-size: 30px;
-    }
+
+p{
+	font-size: 30px;
 }
+
+#myRange.slider{
+	width: 75%;
+	margin: 0 auto 0 auto;
+	display: block;
+
+}
+
+
     
