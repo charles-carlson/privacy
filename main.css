@@ -12,7 +12,6 @@ background:white;
     display: block;
     padding-top: 10px;
     width: 100%
-    height: auto;
 }
 
 p{
@@ -25,6 +24,13 @@ p{
 	display: block;
 
 }
-
+#info-text{
+    padding-top: 25px;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+#tickmarks{
+    display:none;
+}
 
     
